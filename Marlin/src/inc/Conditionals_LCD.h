@@ -520,11 +520,7 @@
  */
 #if ENABLED(BLTOUCH)
   #ifndef Z_PROBE_SERVO_NR
-<<<<<<< HEAD
     #define Z_PROBE_SERVO_NR 0
-=======
-    #define Z_PROBE_SERVO_NR 5
->>>>>>> parent of 171e3933f5... Z_PROBE_SERVO_NR to 1
   #endif
   #ifndef NUM_SERVOS
     #define NUM_SERVOS (Z_PROBE_SERVO_NR + 1)
