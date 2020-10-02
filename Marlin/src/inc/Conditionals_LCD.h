@@ -520,7 +520,7 @@
  */
 #if ENABLED(BLTOUCH)
   #ifndef Z_PROBE_SERVO_NR
-    #define Z_PROBE_SERVO_NR 5
+    #define Z_PROBE_SERVO_NR 1
   #endif
   #ifndef NUM_SERVOS
     #define NUM_SERVOS (Z_PROBE_SERVO_NR + 1)
