@@ -329,7 +329,7 @@ float bilinear_z_offset(const xy_pos_t &raw) {
 
   const float offset = L + ratio.x * D;   // the offset almost always changes
 
-  
+  /*
   static float last_offset = 0;
   if (ABS(last_offset - offset) > 0.2) {
     SERIAL_ECHOLNPAIR("Sudden Shift at x=", rel.x, " / ", bilinear_grid_spacing.x, " -> thisg.x=", thisg.x);
@@ -339,7 +339,7 @@ float bilinear_z_offset(const xy_pos_t &raw) {
     SERIAL_ECHOLNPAIR(" L=", L, " R=", R, " offset=", offset);
   }
   last_offset = offset;
-  
+  //*/
 
   return offset;
 }
