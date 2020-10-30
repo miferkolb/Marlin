@@ -375,4 +375,8 @@
  */
 
 // Include common SKR pins
+
+#ifndef PS_ON_PIN
+  #define PS_ON_PIN                        P0_18  // PWRDET
+#endif
 #include "pins_BTT_SKR_common.h"
