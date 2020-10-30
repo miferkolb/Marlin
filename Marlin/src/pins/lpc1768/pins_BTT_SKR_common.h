@@ -49,6 +49,16 @@
   #define E1_ENABLE_PIN                    P0_10
 #endif
 
+#ifndef E2_STEP_PIN
+  #define E2_STEP_PIN                      P0_18
+#endif
+#ifndef E2_DIR_PIN
+  #define E2_DIR_PIN                       P0_18
+#endif
+#ifndef E2_ENABLE_PIN
+  #define E2_ENABLE_PIN                    P0_18
+#endif
+
 //
 // Temperature Sensors
 //  3.3V max when defined as an analog input
@@ -58,6 +68,7 @@
 #endif
 #ifndef TEMP_1_PIN
   #define TEMP_1_PIN                    P0_25_A2  // A2 (T2) - (69) - TEMP_1_PIN
+  #define TEMP_2_PIN                    P2_05  // random pin 
 #endif
 #ifndef TEMP_BED_PIN
   #define TEMP_BED_PIN                  P0_23_A0  // A0 (T0) - (67) - TEMP_BED_PIN
