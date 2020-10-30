@@ -484,7 +484,7 @@
   #define PID_FUNCTIONAL_RANGE 10 // If the temperature difference between the target temperature and the actual temperature
                                   // is more than PID_FUNCTIONAL_RANGE then the PID will be shut off and the heater will be set to min/max.
  //#define PID_INTEGRAL_DRIVE_MAX PID_MAX  //limit for the integral term
-    #define K1 0.95 //smoothing factor within the PID
+    #define PID_K1 0.95 //smoothing factor within the PID
   // Witbox
   #define DEFAULT_Kp 22.2
   #define DEFAULT_Ki 1.08
